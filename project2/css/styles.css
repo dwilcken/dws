@@ -3,21 +3,26 @@ body {
 	background-color: #bebebe;
 	}
 	
-#page {
-	max-width: 940px;
-	min-width: 720px;
-	margin: 10px auto 10px auto;
-	padding:20px;
-	border: 4px double #000
-	background-color:#bebebe;	
+	
 h1 {
 	font-size: px;
-	color: ;
+	color: #679cba;
+	text-align: center;
 	}
+
 	
-h2 {font-size: px;
-	color: ;
+h3 {
+	font-size: px;
+	color: #a56c21;
 	}		
 	
-p {color: ;
+p {
+	color: #000000;
+	width: 800px;
+	text-align: center;
+	}
+	
+
+aside{
+	text-align:center;
 	}
