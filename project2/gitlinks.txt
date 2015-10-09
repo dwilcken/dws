@@ -1,2 +1,2 @@
 https://github.com/dwilcken/dws/tree/gh-pages
-http://dwilcken.github.io/dws/project1/index.html
+http://dwilcken.github.io/dws/project2/index.html
