@@ -75,14 +75,12 @@
 		color: #54a54c;
 		}	
 /* Image styling */	
-	img {
-		float: left;
-		padding: 30px;
+# gallery img {
+		border: 8px double #a56c21; 
+		border-radius: 25px;	
 		box-shadow: 2px 2px 8px #727272;
 		}
-	.clear {
-		clear:both;
-		}		
+			
 /* Footer styling */	
 	footer {
 		width: 900px;
