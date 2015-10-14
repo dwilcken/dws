@@ -8,9 +8,9 @@
 		padding: 80px;
 		}
 	#page {
-		max-width: 1020px;
-		min-width: 720px;
-		margin: 10px auto 10px auto;
+		max-width: 95%;
+		min-width: 60%;
+		margin: 5% auto 5% auto;
 		padding: 20px;	
 		text-align: center;	
 		}	
@@ -29,17 +29,18 @@
 		font-size: 20px;
 		text-align:left;
 		font-weight: normal;
+		
 		}
 /* Headings H1 & H2 */		
 	h1 { /* Main heading */
-		font: 40px 'Libre Baskerville', serif;
+		font: 3.0em 'Libre Baskerville', serif;
 		color: #4b6326;
 		text-shadow: 2px 2px 8px #727272;
 		padding: 5px;
 		text-align: center;
 		}
 	h2 { /* Sub-headings */
-		font-size: 22px;
+		font-size: 1.75em;
 		color: #a56c21;
 		padding: 10px;
 		text-align:left;
@@ -48,21 +49,23 @@
 /* Paragraphs */
 	p {
 		color: #000000;
-		width: 800px;
+		width: 90%;
 		padding: 10px;
 		font-weight: normal;
-		font-size: 20px;
+		font-size: 1.25em;
 		text-align:left;
 		}
 			
 /* Aside area styling */	
 	#aside {
-		width: 800px;
+		width: 28%;
 		padding: 5px;
 		border: 8px double #ffffff;
 		border-radius: 25px;
 		box-shadow: 2px 2px 8px #727272;
-		}	
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#93cede+0,75bdd1+41,49a5bf+100;Blue+3D+%235 */
+		background: linear-gradient(to bottom,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* W3C */
+		}
 	#more {
 		text-align: center;
 		color: #a56c21;
@@ -72,7 +75,7 @@
 		color: #4b6326;
 		}
 	a:visited{
-		color: #5e5c58;
+		color: #5E5C58;
 		}
 	a:hover{
 		color: #4045ba;
@@ -82,25 +85,26 @@
 		}	
 /* Image styling */	
 	#gallery {
-		width:1000px;
+		width:95%;
 		height:400px;
 		overflow: auto;
-	}
-	#piper{
+		background-image: url("...project2/images/hold-fast.gif");
+		}
+	#piper {
 		float: left;
-		width: 150px;	
+		width: 15%;	
 		box-shadow: 2px 2px 8px #727272;	
 		padding:10px;
 		}	
 	#reeds{
 		float: left;
-		width: 150px;	
+		width: 15%;	
 		box-shadow: 2px 2px 8px #727272;	
 		padding: 10px;
 		}
 	#major{
 		float: left;
-		width: 150px;	
+		width: 15%;	
 		box-shadow: 2px 2px 8px #727272;	
 		padding: 10px;
 		}				
@@ -109,13 +113,12 @@
 		}	
 /* Footer styling */	
 	footer {
-		width: auto;
+		width: 100%;
 		border-top: 2px solid #000;
 		}	
 	#source {
 		text-align:center;
 		}	
 	
-
 
 	
