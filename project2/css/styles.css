@@ -11,7 +11,8 @@
 		max-width: 1020px;
 		min-width: 720px;
 		margin: 10px auto 10px auto;
-		padding: 20px;		
+		padding: 20px;	
+		text-align: center;	
 		}	
 
 	#nav ul li {
@@ -42,7 +43,8 @@
 		color: #a56c21;
 		padding: 10px;
 		text-align:left;
-		}		
+		}	
+		
 /* Paragraphs */
 	p {
 		color: #000000;
@@ -50,16 +52,20 @@
 		padding: 10px;
 		font-weight: normal;
 		font-size: 20px;
+		text-align:left;
 		}
 			
 /* Aside area styling */	
-	aside {
-		padding: 15px;
+	#aside {
+		width: 800px;
+		padding: 5px;
 		border: 8px double #ffffff;
 		border-radius: 25px;
 		box-shadow: 2px 2px 8px #727272;
-		line-height: .05;
-		text-align:center;
+		}	
+	#more {
+		text-align: center;
+		color: #a56c21;
 		}	
 /* Pseudo Classes*/
 	a:link{
@@ -75,18 +81,38 @@
 		color: #54a54c;
 		}	
 /* Image styling */	
-# gallery img {
-		border: 8px double #a56c21; 
-		border-radius: 25px;	
-		box-shadow: 2px 2px 8px #727272;
+	#gallery {
+		width:1000px;
+		height:400px;
+		overflow: auto;
+	}
+	#piper{
+		float: left;
+		width: 150px;	
+		box-shadow: 2px 2px 8px #727272;	
+		padding:10px;
+		}	
+	#reeds{
+		float: left;
+		width: 150px;	
+		box-shadow: 2px 2px 8px #727272;	
+		padding: 10px;
 		}
-			
+	#major{
+		float: left;
+		width: 150px;	
+		box-shadow: 2px 2px 8px #727272;	
+		padding: 10px;
+		}				
+	.clear {
+		clear: left;
+		}	
 /* Footer styling */	
 	footer {
-		width: 900px;
-		padding: 15px;
-		margin: 0px auto 0px auto;
+		width: auto;
 		border-top: 2px solid #000;
+		}	
+	#source {
 		text-align:center;
 		}	
 	
