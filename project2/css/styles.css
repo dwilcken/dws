@@ -43,7 +43,8 @@
 		font-size: 1.75em;
 		color: #a56c21;
 		padding: 10px;
-		text-align:left;
+		text-align:center;
+		background-image: url("../images/pattern_129.gif");
 		}	
 		
 /* Paragraphs */
@@ -55,9 +56,10 @@
 		font-size: 1.25em;
 		text-align:left;
 		}
+
 			
 /* Aside area styling */	
-	#aside {
+	#aside-p {
 		width: 28%;
 		padding: 5px;
 		border: 8px double #ffffff;
@@ -85,10 +87,9 @@
 		}	
 /* Image styling */	
 	#gallery {
-		width:95%;
 		height:400px;
 		overflow: auto;
-		background-image: url("...project2/images/hold-fast.gif");
+	
 		}
 	#piper {
 		float: left;
