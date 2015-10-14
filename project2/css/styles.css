@@ -28,7 +28,7 @@
 		line-height: .01;
 		font-size: 20px;
 		text-align:left;
-		font-weight: normal;
+		font-weight: bold;
 		
 		}
 /* Headings H1 & H2 */		
@@ -45,6 +45,8 @@
 		padding: 10px;
 		text-align:center;
 		background-image: url("../images/pattern_129.gif");
+		background-repeat: repeat;
+		background-postion: center;
 		}	
 		
 /* Paragraphs */
@@ -120,6 +122,12 @@
 	#source {
 		text-align:center;
 		}	
-	
+	#history {
+		background-image: url("../images/celtic.gif");
+		background-repeat: no-repeat;
+		background-position: 95% 63%;
+		background-color: #bebebe;
+		background-size: 45% 35%;
+ 		}
 
 	
