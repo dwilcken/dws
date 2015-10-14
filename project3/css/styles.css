@@ -14,13 +14,12 @@
 		padding: 20px;	
 		text-align: center;	
 		}	
-
+/*  Lists */
 	#nav ul li {
 		display: inline;
 		padding: 10px;
 		text-align: center;
 		}		
-
 	#tunes ol li {
 		padding: 15px;
 		text-align: center;
@@ -29,7 +28,6 @@
 		font-size: 20px;
 		text-align:left;
 		font-weight: bold;
-		
 		}
 /* Headings H1 & H2 */		
 	h1 { /* Main heading */
@@ -46,7 +44,7 @@
 		text-align:center;
 		background-image: url("../images/pattern_129.gif");
 		background-repeat: repeat;
-		background-postion: center;
+		background-position: center;
 		}	
 		
 /* Paragraphs */
@@ -58,7 +56,13 @@
 		font-size: 1.25em;
 		text-align:left;
 		}
-
+	#history {
+		background-image: url("../images/celtic.gif");
+		background-repeat: no-repeat;
+		background-position: 80% 63%;
+		background-color: #bebebe;
+		background-size: 45% 35%;
+		}
 			
 /* Aside area styling */	
 	#aside-p {
@@ -122,12 +126,6 @@
 	#source {
 		text-align:center;
 		}	
-	#history {
-		background-image: url("../images/celtic.gif");
-		background-repeat: no-repeat;
-		background-position: 95% 63%;
-		background-color: #bebebe;
-		background-size: 45% 35%;
- 		}
+
 
 	
