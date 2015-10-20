@@ -16,6 +16,7 @@
 		margin: 5% auto 5% auto;
 		padding: 20px;	
 		text-align: center;	
+		overflow: auto;
 		}	
 /*  Lists */
 	#nav ul li {
@@ -28,7 +29,7 @@
 		text-align: center;
 		list-style-type: lower-roman;
 		line-height: .01;
-		font-size: 20px;
+		font-size: 1.25em;
 		text-align:left;
 		font-weight: bold;
 		}
@@ -57,16 +58,11 @@
 		font-size: 1.25em;
 		text-align:left;
 		background-color: #e5e5e5;
-		
 		}
+	
 
-	#tunes {
-		background-image: url("../Images/celtic.gif");
-		background-repeat: no-repeat;
-		background-position: 50% 75%;
-		background-size: 15% 55%;
-		}
-				
+	
+			
 /* Aside area styling */	
 	#aside {
 		width: 28%;
@@ -98,25 +94,31 @@
 		color: #54a54c;
 		}	
 /* Image styling */	
+	#history {
+		float: left;
+		width: 65%;
+		}
 	#gallery {
 		height:75%;
-		overflow: overflow;
-		float: right;
-		position: right;
-		width: 25%;	
+		float: left;
+		width: 18%;	
 		box-shadow: 2px 2px 8px #727272;	
-		padding:30px;
+		padding:1px;
 		margin: 20px;
 		background-color: #a56c21;
 		}
-					
-	.clear {
+	#tunes {
+		background-image: url("../Images/celtic.gif");
+		background-repeat: no-repeat;
+		background-size: 10% 45%;
 		clear: both;
-		}	
+		}						
+		
 /* Footer styling */	
 	footer {
 		width: 100%;
 		border-top: 2px solid #000;
+		overflow: auto;
 		}	
 	#source {
 		text-align:center;
@@ -133,7 +135,7 @@
 	th, td {
 		padding: 5px 30px 5px 10px;
 		border-spacing: 0px;
-		font-size:90%;
+		font-size:1.25em;
 		margin: 0px;
 		text-align: center;
 		border-top: 1px solid;
@@ -141,9 +143,9 @@
 		border-right: 1px solid;
 		border-left: 1px solid;	
 		}
-	#odd {
+	.odd {
 		background-color: #93cede;
 		}	
-	#even {
+	.even {
 		background-color: #e5e5e5;
 		}
