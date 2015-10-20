@@ -195,13 +195,13 @@
 				<p id="source"><strong>Source:</strong><a href="https://en.wikipedia.org/wiki/Great_Highland_Bagpipe"> 
 				Wikipedia GHB</a></p>
 				<form action="http://www.example.com/form.php" method="get">
-					<fieldset>
+					<fieldset id="form">
 						<legend>Receive Updates</legend>
 						<p>
 							<label class="title" for="name">Name:</label>
 							<input type="text" name="name" id="name" required>
 							<br>
-							<label class="title" for="email">Email:</label>
+							<label class="contact" for="email">Email:</label>
 							<input type="email" name="email" id="email" required>
 						</p>
 						<p>
@@ -215,11 +215,11 @@
 						</p>
 						<p>	
 							<label class="question">Did you find this site helpful?</label>
-								<input type="radio" name="helpful" value="yes">Yes</input>
+								<input type="radio" name="helpful"  value="yes">Yes</input>
 								<input type="radio" name="helpful" value="no">No</input>
 						</p>
 						<textarea label="Feedback" rows="10" cols="50" placeholder="Please leave feedback...."></textarea>
-						<input type="submit">			
+						<input id="sbutton" type="submit">			
 					</fieldset>	
 				</form>					
 			</footer>

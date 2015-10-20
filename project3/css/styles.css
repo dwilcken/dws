@@ -39,8 +39,7 @@
 		color: #4b6326;
 		text-shadow: 2px 2px 8px #727272;
 		padding: 5px;
-		text-align: center;
-		
+		text-align: center;		
 		}
 	h2 { /* Sub-headings */
 		font-size: 1.75em;
@@ -48,8 +47,7 @@
 		padding: 10px;
 		text-align:center;
 		font-style: italic;
-		}	
-		
+		}			
 /* Paragraphs */
 	p {
 		color: #000000;
@@ -58,11 +56,7 @@
 		font-size: 1.25em;
 		text-align:left;
 		background-color: #e5e5e5;
-		}
-	
-
-	
-			
+		}			
 /* Aside area styling */	
 	#aside {
 		width: 28%;
@@ -101,7 +95,7 @@
 	#gallery {
 		height:75%;
 		float: left;
-		width: 18%;	
+		width: 25%;	
 		box-shadow: 2px 2px 8px #727272;	
 		padding:1px;
 		margin: 20px;
@@ -112,8 +106,7 @@
 		background-repeat: no-repeat;
 		background-size: 10% 45%;
 		clear: both;
-		}						
-		
+		}								
 /* Footer styling */	
 	footer {
 		width: 100%;
@@ -123,7 +116,6 @@
 	#source {
 		text-align:center;
 		}	
-
 /* Table */
 	table {
 		border-spacing: 1%;
@@ -153,4 +145,42 @@
 		}
 	tr:hover {
 		background-color: #4b6326;
+		}			
+	form {
+		background-color: #f9f1dc;
+		margin: 5% auto 5% auto;;
+		width: 65%;
+		font-size: 1.25em;
+		padding: 10px;
+		border: 2px solid #000;
+		text-align: left;
 		}	
+		
+	select:hover {
+		border: 1px solid #006;
+		background: #ffc;
+		}	
+	textarea:focus {
+		border: 2px solid #93cede;
+		}	
+	#name:hover {
+		border: 1px solid #006;
+		background: #ffc;
+		}
+	#email:hover {
+		border: 1px solid #006;
+		background: #ffc;
+		}
+	
+	#sbutton {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#93cede+0,75bdd1+41,49a5bf+100;Blue+3D+%235 */
+		background: linear-gradient(to bottom,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* W3C */
+		width: 15%;
+		}
+	#sbutton:focus {	
+		border: 1px solid #006;
+		}
+	#sbutton:active {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#93cede+0,75bdd1+41,49a5bf+100;Blue+3D+%235 */
+		background: linear-gradient(to top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* W3C */
+		}			
