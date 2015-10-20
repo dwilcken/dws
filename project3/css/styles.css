@@ -76,6 +76,7 @@
 		box-shadow: 2px 2px 8px #727272;
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#93cede+0,75bdd1+41,49a5bf+100;Blue+3D+%235 */
 		background: linear-gradient(to bottom,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* W3C */
+		margin: 5% auto 5% auto;
 		}
 	#more {
 		text-align: center;
@@ -121,5 +122,28 @@
 		text-align:center;
 		}	
 
-
-	
+/* Table */
+	table {
+		border-spacing: 0px;
+		margin: 5% auto 5% auto;
+		}
+	thead {
+		background-color:#a56c21;
+		} 
+	th, td {
+		padding: 5px 30px 5px 10px;
+		border-spacing: 0px;
+		font-size:90%;
+		margin: 0px;
+		text-align: center;
+		border-top: 1px solid;
+		border-bottom: 1px solid;
+		border-right: 1px solid;
+		border-left: 1px solid;	
+		}
+	#odd {
+		background-color: #93cede;
+		}	
+	#even {
+		background-color: #e5e5e5;
+		}
