@@ -199,10 +199,10 @@
 						<legend>Receive Updates</legend>
 						<p>
 							<label class="title" for="name">Name:</label>
-							<input type="text" name="name" id="name">
+							<input type="text" name="name" id="name" required>
 							<br>
 							<label class="title" for="email">Email:</label>
-							<input type="text" name="email" id="email">
+							<input type="email" name="email" id="email" required>
 						</p>
 						<p>
 							<label for="age" class="title">Your Age Group:</label>
@@ -218,6 +218,7 @@
 								<input type="radio" name="helpful" value="yes">Yes</input>
 								<input type="radio" name="helpful" value="no">No</input>
 						</p>
+						<textarea label="Feedback" rows="10" cols="50" placeholder="Please leave feedback...."></textarea>
 						<input type="submit">			
 					</fieldset>	
 				</form>					
