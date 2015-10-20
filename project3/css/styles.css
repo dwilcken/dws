@@ -6,7 +6,7 @@
 		opacity: .85;
 		border: 15px double #a56c21;
 		padding: 80px;
-		background-image: url("../images/pattern_129.gif");
+		background-image: url("../Images/pattern_129.gif");
 		background-repeat: repeat;
 		background-position: center;
 		}
@@ -46,6 +46,7 @@
 		color: #a56c21;
 		padding: 10px;
 		text-align:center;
+		font-style: italic;
 		}	
 		
 /* Paragraphs */
@@ -53,26 +54,26 @@
 		color: #000000;
 		width: 90%;
 		padding: 10px;
-		font-weight: normal;
 		font-size: 1.25em;
 		text-align:left;
 		background-color: #e5e5e5;
+		
 		}
 	#overview {
-		background-image: url("../images/celtic.gif");
+		background-image: url("../Images/celtic.gif");
 		background-repeat: no-repeat;
 		background-position: 50% 35%;
 		background-size: 35% 35%;
 		}
 	#tunes {
-		background-image: url("../images/celtic.gif");
+		background-image: url("../Images/celtic.gif");
 		background-repeat: no-repeat;
 		background-position: 50% 75%;
 		background-size: 15% 55%;
 		}
 				
 /* Aside area styling */	
-	#aside-p {
+	#aside {
 		width: 28%;
 		padding: 5px;
 		border: 8px double #ffffff;
@@ -84,6 +85,8 @@
 	#more {
 		text-align: center;
 		color: #a56c21;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#93cede+0,75bdd1+41,49a5bf+100;Blue+3D+%235 */
+		background: linear-gradient(to top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* W3C */
 		}	
 /* Pseudo Classes*/
 	a:link{
