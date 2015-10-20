@@ -6,6 +6,9 @@
 		opacity: .85;
 		border: 15px double #a56c21;
 		padding: 80px;
+		background-image: url("../images/pattern_129.gif");
+		background-repeat: repeat;
+		background-position: center;
 		}
 	#page {
 		max-width: 95%;
@@ -36,15 +39,13 @@
 		text-shadow: 2px 2px 8px #727272;
 		padding: 5px;
 		text-align: center;
+		
 		}
 	h2 { /* Sub-headings */
 		font-size: 1.75em;
 		color: #a56c21;
 		padding: 10px;
 		text-align:center;
-		background-image: url("../images/pattern_129.gif");
-		background-repeat: repeat;
-		background-position: center;
 		}	
 		
 /* Paragraphs */
@@ -55,15 +56,21 @@
 		font-weight: normal;
 		font-size: 1.25em;
 		text-align:left;
+		background-color: #e5e5e5;
 		}
-	#history {
+	#overview {
 		background-image: url("../images/celtic.gif");
 		background-repeat: no-repeat;
-		background-position: 80% 63%;
-		background-color: #bebebe;
-		background-size: 45% 35%;
+		background-position: 50% 35%;
+		background-size: 35% 35%;
 		}
-			
+	#tunes {
+		background-image: url("../images/celtic.gif");
+		background-repeat: no-repeat;
+		background-position: 50% 75%;
+		background-size: 15% 55%;
+		}
+				
 /* Aside area styling */	
 	#aside-p {
 		width: 28%;
@@ -93,30 +100,19 @@
 		}	
 /* Image styling */	
 	#gallery {
-		height:400px;
-		overflow: auto;
-	
+		height:75%;
+		overflow: overflow;
+		float: right;
+		position: right;
+		width: 25%;	
+		box-shadow: 2px 2px 8px #727272;	
+		padding:30px;
+		margin: 20px;
+		background-color: #a56c21;
 		}
-	#piper {
-		float: left;
-		width: 15%;	
-		box-shadow: 2px 2px 8px #727272;	
-		padding:10px;
-		}	
-	#reeds{
-		float: left;
-		width: 15%;	
-		box-shadow: 2px 2px 8px #727272;	
-		padding: 10px;
-		}
-	#major{
-		float: left;
-		width: 15%;	
-		box-shadow: 2px 2px 8px #727272;	
-		padding: 10px;
-		}				
+					
 	.clear {
-		clear: left;
+		clear: both;
 		}	
 /* Footer styling */	
 	footer {
