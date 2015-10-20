@@ -192,6 +192,41 @@
 			<footer> <!-- Footer with Source Link -->
 				<p id="source"><strong>Source:</strong><a href="https://en.wikipedia.org/wiki/Great_Highland_Bagpipe"> 
 				Wikipedia GHB</a></p>
+				<form action="http://www.example.com/form.php" method="get">
+					<fieldset>
+						<legend>Receive Updates</legend>
+						<p>
+							<label class="title" for="name">Name:</label>
+							<input type="text" name="name" id="name">
+							<br>
+							<label class="title" for="email">Email:</label>
+							<input type="text" name="email" id="email">
+						</p>
+						<p>
+							<label for="age" class="title">Your Age Group:</label>
+								<select name="age" id="age">
+									<option value="810">8-10</option>
+									<option value="1120">11-20</option>
+									<option value=2140>21-40</option>
+									<option value="40older">41 or older</option>
+								</selection>
+						</p>
+						<span class="title">Do you want to receive weekly updates?</span>
+						<label>
+							<input type="radio" name="update" value="yes">
+							"Yes"
+						</label>
+						<label>
+							<input tupe="radio" name="update" value="no">
+							"No"
+						</label>
+						<p></p>			
+					</fieldset>	
+					<div class="submit">
+						<input type="submit" value="Submit">
+					</div>
+				</form>					
+			
 			</footer>
 		
 		</section>
