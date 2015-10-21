@@ -115,6 +115,10 @@
 		}	
 	#source {
 		text-align:center;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#93cede+0,75bdd1+41,49a5bf+100;Blue+3D+%235 */
+		background: linear-gradient(to top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* W3C */
+		width: 45%;
+		margin: 5% auto 5% auto;
 		}	
 /* Table */
 	table {
@@ -154,8 +158,8 @@
 		padding: 10px;
 		border: 2px solid #000;
 		text-align: left;
+		color: #a56c21;
 		}	
-		
 	select:hover {
 		border: 1px solid #006;
 		background: #ffc;
@@ -171,14 +175,11 @@
 		border: 1px solid #006;
 		background: #ffc;
 		}
-	
 	#sbutton {
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#93cede+0,75bdd1+41,49a5bf+100;Blue+3D+%235 */
 		background: linear-gradient(to bottom,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* W3C */
 		width: 15%;
-		}
-	#sbutton:focus {	
-		border: 1px solid #006;
+		float: right;
 		}
 	#sbutton:active {
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#93cede+0,75bdd1+41,49a5bf+100;Blue+3D+%235 */
