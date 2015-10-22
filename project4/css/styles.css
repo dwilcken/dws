@@ -47,6 +47,12 @@
 		padding: 10px;
 		text-align:center;
 		font-style: italic;
+		}	
+	h3 { /* Sub-headings */
+		font-size: 1.25em;
+		color: #4b6326;
+		padding: 10px;
+		text-align:center;
 		}			
 /* Paragraphs */
 	p {
@@ -123,7 +129,7 @@
 		}	
 /* Table */
 	table {
-		border-spacing: 1%;
+		border-spacing: 1px;
 		margin: 5% auto 5% auto;
 		width: 85%;
 		}
@@ -156,7 +162,7 @@
 		border: 1px solid #efefef;
 		margin: 5% auto 5% auto;
 		padding-bottom: 5px;
-		width: 34%;
+		width: 30%;
 		background-color:#f9f1dc;
 		overflow: auto;
 		font-size: 1.25em;
@@ -164,7 +170,7 @@
 		}
 	.title {
 		float: left;
-		width: 5%;
+		width: 30%;
 		text-align: right;
 		padding-right: 1px;
 		}
@@ -172,7 +178,6 @@
 		float: none;
 		}	
 	#submit {
-		text align:right;
 		/* Permalink - use to edit and share this gradient:http://colorzilla.com/gradient-editor/#93cede+0,75bdd1+41,49a5bf+100;Blue+3D+%235 */
 		background: linear-gradient(to bottom,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* W3C */
 		float: left;
