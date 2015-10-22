@@ -8,7 +8,7 @@
    		<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:700' rel='stylesheet' />   	
 	</head>
 	<body>
-		<section id="page">
+		<section id="page"><!-- Header -->
 			<header>
 				<h1><strong>Great Highland Bagpipes</strong></h1> <!-- Main tile on Page -->
    			<nav id="nav">
@@ -20,11 +20,7 @@
       			</ul>
       			</nav>
    			</header>	
-   			
-   			
-      				 
-			
-			<section id="overview">
+			<section id="overview"> <!-- Overview Section -->
 				<h2><strong>Overview</strong></h2>
 				<p>The <strong><abbr title="Great Highland Bagpipes">GHB</abbr></strong>  are a type 
 				of bagpipe native to Scotland. It has achieved widespread recognition through its 
@@ -44,7 +40,7 @@
 					<p id="more">Want to know more? The <a href="https://www.facebook.com/The-College-of-Piping-1472910749643992/timeline/">
 					College of Piping</a> has more information.</p>
 			</aside> 
-			<section>
+			<section> <!-- Table Section -->
 				<table>
 					<thead>
 						<tr>
@@ -125,8 +121,7 @@
 					</thead>	
 				</table>
 			</section> 
-			<section id="gallery">
-				 <!-- Image Gallery -->
+			<section id="gallery"><!-- Image Gallery -->
 					<figure id="piper">
 						<a href="Images/Afghanistan_bagpiper.jpg">
 						<img src="Images/Afghanistan_bagpiper.jpg" width="125" height="175" alt="Afghanistan Bagpiper"></a>
@@ -143,7 +138,7 @@
 							<figcaption>Fig3.Pipe Major.</figcaption>
 					</figure>
 			</section>
-			<section id="history">
+			<section id="history"><!-- History section -->
 				<h2><strong>History</strong></h2>
 				<p>Though popular belief sets varying dates for the introduction of bagpipes to 
 				Scotland, concrete evidence is limited until approximately the 15th century. The Clan 
@@ -182,7 +177,7 @@
 				the rebel-held Crater district by their pipe major playing the regimental marches.[6]
 				</p>
 			</section>
-			<section id="tunes">
+			<section id="tunes"> <!-- Well known Tunes -->
 				<h2><strong>Well Known Tunes</strong></h2>	
 					<ol>
 						<li>Amazing Grace</li>
@@ -191,38 +186,46 @@
 						<li>Highland Laddie</li>
 					</ol>	
 			</section>
-											
-			<footer> <!-- Footer with Source Link -->
-				<p id="source"><strong>Source:</strong><a href="https://en.wikipedia.org/wiki/Great_Highland_Bagpipe"> 
-				Wikipedia GHB</a></p>
-				<form action="http://www.example.com/form.php" method="get">
-					<fieldset id="form">
+			<section> <!-- Form Section -->
+				<form action="mailto:dwilcken@gmail.com">
+					<fieldset id ="form">
 						<legend>Receive Updates</legend>
-						<p>
-							<label class="title" for="name">Name:</label>
-							<input type="text" name="name" id="name" required>
-							<br>
-							<label class="contact" for="email">Email:</label>
-							<input type="email" name="email" id="email" required>
-						</p>
-						<p>
-							<label for="age" class="title">Your Age Group:</label>
-								<select name="age" id="age">
+							<div>
+								<label for="name" class="title">Name:</label>
+								<input type="text" id="name" placeholder="John Smith" name="name" />
+							</div>
+							<div>
+								<label for="email" class="title">Email:</label>
+								<input type="email" id="email" placeholder="jsmith@example.com" name="email" required />								
+							</div>
+							<div>	
+								<span class="title">Gender:</span>
+								<input type="radio" name="gender" id="male" value="M" />
+								<label for="yes" >Male</label>
+								<input type="radio" name="gender" id="female" value="F" />
+								<label for="no">Female</label>
+							</div>
+							<div>
+								<label class="title" for="age">Age:</label>
+								<select name="age" id="groups">
 									<option value="810">8-10</option>
 									<option value="1120">11-20</option>
 									<option value=2140>21-40</option>
 									<option value="40older">41 or older</option>
-								</select>	
-						</p>
-						<p>	
-							<label class="question">Did you find this site helpful?</label>
-								<input type="radio" name="helpful"  value="yes">Yes</input>
-								<input type="radio" name="helpful" value="no">No</input>
-						</p>
-						<textarea label="Feedback" rows="10" cols="50" placeholder="Please leave feedback...."></textarea>
-						<input id="sbutton" type="submit">			
-					</fieldset>	
-				</form>					
+								</select>
+							</div>
+							<div>
+								<textarea name="comments" cols="20" rows="4" placeholder="Enter comments..."></textarea>
+							<div>	
+								<input type="submit" value="Register" id="submit" />
+							</div>
+						</legend>
+					</fieldset>
+				</form>
+			</section>			
+			<footer> <!-- Footer with Source Link -->
+				<p id="source"><strong>Source:</strong><a href="https://en.wikipedia.org/wiki/Great_Highland_Bagpipe"> 
+				Wikipedia GHB</a></p>			
 			</footer>
 	</body>	
 </html> 

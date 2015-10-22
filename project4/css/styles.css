@@ -55,7 +55,7 @@
 		padding: 10px;
 		font-size: 1.25em;
 		text-align:left;
-		background-color: #e5e5e5;
+		background-color: #f9f1dc;
 		}			
 /* Aside area styling */	
 	#aside {
@@ -100,6 +100,7 @@
 		padding:1px;
 		margin: 20px;
 		background-color: #a56c21;
+		overflow: auto;
 		}
 	#tunes {
 		background-image: url("../Images/celtic.gif");
@@ -116,7 +117,7 @@
 	#source {
 		text-align:center;
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#93cede+0,75bdd1+41,49a5bf+100;Blue+3D+%235 */
-		background: linear-gradient(to top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* W3C */
+		background: none; 
 		width: 45%;
 		margin: 5% auto 5% auto;
 		}	
@@ -150,38 +151,71 @@
 	tr:hover {
 		background-color: #4b6326;
 		}			
+/* Form */
 	form {
-		background-color: #f9f1dc;
-		margin: 5% auto 5% auto;;
-		width: 65%;
+		border: 1px solid #efefef;
+		margin: 5% auto 5% auto;
+		padding-bottom: 5px;
+		width: 34%;
+		background-color:#f9f1dc;
+		overflow: auto;
 		font-size: 1.25em;
-		padding: 10px;
-		border: 2px solid #000;
-		text-align: left;
 		color: #a56c21;
+		}
+	.title {
+		float: left;
+		width: 5%;
+		text-align: right;
+		padding-right: 1px;
+		}
+	.radio-buttons label {
+		float: none;
 		}	
-	select:hover {
-		border: 1px solid #006;
-		background: #ffc;
-		}	
-	textarea:focus {
-		border: 2px solid #93cede;
-		}	
+	#submit {
+		text align:right;
+		/* Permalink - use to edit and share this gradient:http://colorzilla.com/gradient-editor/#93cede+0,75bdd1+41,49a5bf+100;Blue+3D+%235 */
+		background: linear-gradient(to bottom,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* W3C */
+		float: left;
+		clear: left;
+		margin: 5px 0px;
+		}		
+	#submit:active {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#93cede+0,75bdd1+41,49a5bf+100;Blue+3D+%235 */
+		background: linear-gradient(to top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* W3C */
+		}
 	#name:hover {
 		border: 1px solid #006;
 		background: #ffc;
+		}
+	#name:focus {
+		border: 1px solid #93cede;
 		}
 	#email:hover {
 		border: 1px solid #006;
 		background: #ffc;
 		}
-	#sbutton {
-		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#93cede+0,75bdd1+41,49a5bf+100;Blue+3D+%235 */
-		background: linear-gradient(to bottom,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* W3C */
-		width: 15%;
-		float: right;
+	#email:focus {
+		border: 1px solid #93cede;
 		}
-	#sbutton:active {
-		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#93cede+0,75bdd1+41,49a5bf+100;Blue+3D+%235 */
-		background: linear-gradient(to top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* W3C */
-		}			
+	#groups:hover {
+		border: 1px solid #006;
+		background: #ffc;
+		}
+	#groups:focus {
+		border: 1px solid #93cede;
+		}	
+	textarea {
+		float: left;
+		clear: left;
+		padding: 3px;
+		margin: 5px 0px;
+		}
+	textarea:hover {
+		border: 1px solid #006;
+		background: #ffc;
+		}
+	textarea:focus {
+		border: 1px solid #93cede;
+		}
+	
+			
